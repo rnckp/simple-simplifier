@@ -30,3 +30,5 @@ Documentation = "https://github.com/machinelearningZH/simple-simplifier#readme"
 Issues = "https://github.com/machinelearningZH/simple-simplifier/issues"
 Source = "https://github.com/machinelearningZH/simple-simplifier"
 
+[tool.hatch]
+version = "0.1.0"

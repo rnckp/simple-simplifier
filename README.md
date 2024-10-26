@@ -15,6 +15,7 @@ With this version you can pip install the core functionality and use language si
 
 - Create a [Conda](https://docs.anaconda.com/miniconda/) environment: `conda create -n simplifier python=3.9`
 - Activate the environment: `conda activate zix`
+- Clone this repository. Change into the project directory.
 - Install the requirements: `pip install -r requirements.txt`
 
 **Install the Simplifier as a package**
