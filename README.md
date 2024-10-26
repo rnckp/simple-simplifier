@@ -1,7 +1,6 @@
-# Simplifier
+# Simple Simplifier
 
-[![PyPI - Version](https://img.shields.io/pypi/v/simplifier.svg)](https://pypi.org/project/simplifier)
-[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/simplifier.svg)](https://pypi.org/project/simplifier)
+Simple Simplify German Language
 
 -----
 
