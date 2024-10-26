@@ -17,11 +17,12 @@ With this version you can pip install the core functionality and use language si
 - Activate the environment: `conda activate zix`
 - Clone this repository. Change into the project directory.
 - Install the requirements: `pip install -r requirements.txt`
+- Export the OpenAI API key as an environment variable: `export OPENAI_API_KEY=your-api-key`
 
 **Install the Simplifier as a package**
 
 - `pip install git+https://github.com/rnckp/simple-simplifier`
-- Alternatively clone the repo, change into the project directory and invoke: `python -m pip install .`
+- Alternatively invoke from the cloned project directory: `python -m pip install .`
 
 **Start the FastAPI server**
 
