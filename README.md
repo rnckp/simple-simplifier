@@ -6,11 +6,6 @@ This is a simplified version of our [Language Simplification Tool](https://githu
 
 With this version you can pip install the core functionality and use language simplification via GPT-4o as a package. The API is built with [FastAPI](https://fastapi.tiangolo.com/) and can be used to simplify German language text in production environments where you want to integrate programmatically with other services.
 
-## Table of Contents
-
-- [Usage](#usage)
-- [License](#license)
-
 ## Usage
 
 - Create a [Conda](https://docs.anaconda.com/miniconda/) environment: `conda create -n simplifier python=3.9`
