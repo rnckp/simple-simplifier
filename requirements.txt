@@ -1,0 +1,6 @@
+ipywidgets
+ipykernel
+python-dotenv
+openai
+fastapi
+uvicorn

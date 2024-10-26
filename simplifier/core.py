@@ -3,8 +3,7 @@ import re
 from dotenv import load_dotenv
 from openai import OpenAI
 
-
-from utils_prompts import (
+from simplifier.utils_prompts import (
     SYSTEM_MESSAGE_ES,
     SYSTEM_MESSAGE_LS,
     RULES_ES,
@@ -27,7 +26,7 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
-MODEL_NAME = "GPT-4o"
+MODEL_NAME = "gpt-4o"
 MAX_TOKENS = 4096
 
 # From our testing we derive a sensible temperature of 0.5 as a good trade-off between creativity and coherence. Adjust this to your needs.
@@ -35,7 +34,7 @@ TEMPERATURE = 0.5
 
 
 # Maximum number of characters for the input text.
-# This is way below the context window sizes of the GPT-4o model. Adjust to your needs.
+# This is way below the context window size of the GPT-4o model. Adjust to your needs.
 MAX_CHARS_INPUT = 100_000
 
 
@@ -95,7 +94,7 @@ def _invoke_openai_model(text, leichte_sprache):
 def simplify_text(text, leichte_sprache=False):
     """Simplify text."""
     if len(text) > MAX_CHARS_INPUT:
-        return f"Error: Dein Text ist zu lang für das System. Bitte kürze ihn auf unter {MAX_CHARS_INPUT} Zeichen."
+        return f"Error: Dein Text ist zu lang für das System. Bitte kürze ihn auf {MAX_CHARS_INPUT} Zeichen oder weniger."
     success, response = _invoke_openai_model(text, leichte_sprache)
     if success:
         return response
