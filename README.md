@@ -2,7 +2,7 @@
 
 **Simply Simplify German Language -- API Version**
 
-This is a simplified version of our [Language Simplification Tool(https://github.com/machinelearningZH/simply-simplify-language)]. With this version you can pip install the core functionality and use it as a package. The API is built with FastAPI and can be used to simplify German language text in production environments where you want to integrate programmatically with other services.
+This is a simplified version of our [Language Simplification Tool](https://github.com/machinelearningZH/simply-simplify-language). With this version you can pip install the core functionality and use it as a package. The API is built with FastAPI and can be used to simplify German language text in production environments where you want to integrate programmatically with other services.
 
 ## Table of Contents
 
