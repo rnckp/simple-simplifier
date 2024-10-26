@@ -1,10 +1,12 @@
-# Simple Simplifier
+# Simple Simplifier API
 
-**Simply Simplify German Language**
+**Simply Simplify German Language -- API Version**
+
+This is a simplified version of our [Language Simplification Tool(https://github.com/machinelearningZH/simply-simplify-language)]. With this version you can pip install the core functionality and use it as a package. The API is built with FastAPI and can be used to simplify German language text in production environments where you want to integrate programmatically with other services.
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [Usage](#usage)
 - [License](#license)
 
 ## Usage
@@ -22,7 +24,7 @@
 
 - `uvicorn fastapi_app:app --reload`
 
-**Use the API**
+**Test the API**
 
 - Open the notebook `simple-simplifier.ipynb` and follow the instructions.
 
