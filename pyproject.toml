@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "simple-simplifier"
+name = "simplifier"
 dynamic = ["version"]
-description = 'Simple simplify language'
+description = 'Simple Simplify German Language'
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
