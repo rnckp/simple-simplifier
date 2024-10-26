@@ -14,7 +14,7 @@ With this version you can pip install the core functionality and use language si
 ## Usage
 
 - Create a [Conda](https://docs.anaconda.com/miniconda/) environment: `conda create -n simplifier python=3.9`
-- Activate the environment: `conda activate zix`
+- Activate the environment: `conda activate simplifier`
 - Clone this repository. Change into the project directory.
 - Install the requirements: `pip install -r requirements.txt`
 - Export the OpenAI API key as an environment variable: `export OPENAI_API_KEY=your-api-key`
